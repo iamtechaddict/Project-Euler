@@ -1,0 +1,1 @@
+(1 until 100).foldLeft(1:BigInt)(_ * _).toString.toList.foldLeft(0)(_ + _ -'0')
